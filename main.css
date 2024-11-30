@@ -1,0 +1,45 @@
+body {
+justify-content: center;
+display: flex;
+align-items: center;
+background: skyblue;
+
+}
+
+h1{
+color: black;
+font-size: 3rem;
+text-align: center;
+
+}
+i{
+    color:blueviolet;
+}
+a{
+    
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.3rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border: 2px solid white;
+    transition: 0.3s ease;
+}
+.click{
+    text-align: center;
+    margin-top: 160px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+    height: 100%;
+}
+img:hover{
+    transform: scale3d(1.03);
+    background-color: rgb(241, 238, 238);
+    color:black;
+    box-shadow: 0 0 55px rgb(219, 8, 8);
+}

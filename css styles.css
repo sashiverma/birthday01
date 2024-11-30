@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: lightblue; /* Change this to your desired background color */
+}
+
+.card {
+    background-color: #ffffff; /* Card background color */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px; /* Card width */
+}
+
+h1 {
+    color: #ff69b4; /* Title color */
+   
+}
+span{
+    font-size: 30px;
+    line-height: 1.5rem;
+}
+
+.photo {
+    width: 100%; /* Adjust photo size */
+    border-radius: 5px;
+}
+
+.signature {
+    font-style: italic;
+}
+.photo:hover{
+    transform: scale3d(1.03);
+    background-color: whitesmoke;
+    color:black;
+    box-shadow: 0 0 35px rgb(196, 8, 8);
+}
